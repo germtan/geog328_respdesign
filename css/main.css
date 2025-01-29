@@ -73,3 +73,26 @@
     text-align: left;
   }
 }
+
+/* Center images in the content */
+.image-container {
+  display: flex;
+  justify-content: center; /* Center images horizontally */
+  align-items: center; /* Align images vertically if needed */
+  gap: 10px; /* Space between images */
+  margin: 20px 0; /* Adds spacing above and below */
+}
+
+/* Ensure images scale properly */
+.image-container img {
+  width: 80%;  /* Adjust width as needed */
+  height: auto;
+  max-width: 900px; /* Prevents images from getting too large */
+  border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+.overview-title {
+  font-weight: bold;
+  font-size: 24px; /* Adjust size as needed */
+}
+
