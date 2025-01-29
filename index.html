@@ -36,9 +36,6 @@
     <!-- Page content -->
     <div class="content">
         <br>
-        <div class="image-container">
-            <img src="img/gtr2.png" style="width: 50%; height: auto;">
-            <img src="img/gtr1.png" style="width: 50%; height: auto;">
         </div>
         <br>        
         <h2 class="overview-title">Overview</h2> 
@@ -50,6 +47,29 @@
     <!-- Including the main.js file for JavaScript functionality -->
     <script src="js/main.js"></script>
 
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 2</div>
+          <img src="img/gtr1.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 2</div>
+          <img src="img/gtr2.png" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
 </body>
 
 </html>
