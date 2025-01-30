@@ -1,4 +1,4 @@
-// Responsive Navigation Control
+
 let icon = document.getElementsByClassName("icon")[0];
 icon.addEventListener('click', responsive_control);
 
